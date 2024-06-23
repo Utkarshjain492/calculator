@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    top: 80px;
+    background-color: grey;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+h1{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.inputs #ip1,
+.inputs #ip2,
+.inputs #result{
+    position: relative;
+    background-color: skyblue;
+    width: 250px;
+    height: 40px;
+    top: 40px;
+    left: 15px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.inputs #ip2{
+    top: 60px;
+}
+
+.inputs #result{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    top: 80px;
+    font-size: 25px;
+}
+
+.inputs #ip1::placeholder,
+.inputs #ip2::placeholder{
+    position: relative;
+    color: red;
+    text-align: end;
+}
+
+.inputs input{
+    padding-left: 20px;
+}
+
+button{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    left: 50px;
+    top: 100px;
+    font-size: 30px;
+    background-color: white;
+}
+
+#mul,
+#div{
+    top: 105px;
+}
+
+#add,
+#div{
+    right: 50px;
+}
