@@ -35,5 +35,5 @@ div.addEventListener('click', () => {
 reset.addEventListener('click', () => {
     input1.value = ('');
     input2.value = ('');
-    result.innerHTML = ('');
+    result.innerHTML = ('Result will show here');
 });
